@@ -69,6 +69,13 @@ namespace Proyecto_tienda
                         dtgvProductos.Visible = false;
                     }
                     break;
+                case 5:
+                    {
+                        id_producto = int.Parse(dtgvProductos.Rows[fila].Cells[0].Value.ToString());
+                        mp.Eliminar(id_producto, dtgvProductos.Rows[fila].Cells[1].Value.ToString());
+                        dtgvProductos.Visible = false;
+                    }
+                    break;
             }
         }
     }
