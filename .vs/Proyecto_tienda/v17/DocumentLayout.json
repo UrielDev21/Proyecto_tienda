@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F35BE37-AF3E-4864-A4B5-56ACEFE2C2ED}|Proyecto_tienda\\Proyecto_tienda.csproj|c:\\users\\saave\\onedrive\\documentos\\aorus\\5to_semestre\\administracion de bases de datos\\1er parcial\\proyecto_tienda\\proyecto_tienda\\frm_agregar_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F35BE37-AF3E-4864-A4B5-56ACEFE2C2ED}|Proyecto_tienda\\Proyecto_tienda.csproj|solutionrelative:proyecto_tienda\\frm_agregar_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F35BE37-AF3E-4864-A4B5-56ACEFE2C2ED}|Proyecto_tienda\\Proyecto_tienda.csproj|c:\\users\\saave\\onedrive\\documentos\\aorus\\5to_semestre\\administracion de bases de datos\\1er parcial\\proyecto_tienda\\proyecto_tienda\\frm_vista_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F35BE37-AF3E-4864-A4B5-56ACEFE2C2ED}|Proyecto_tienda\\Proyecto_tienda.csproj|solutionrelative:proyecto_tienda\\frm_vista_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A4F396-30B2-4629-9337-B8869395D9E4}|Acceso_datos\\Acceso_datos.csproj|c:\\users\\saave\\onedrive\\documentos\\aorus\\5to_semestre\\administracion de bases de datos\\1er parcial\\proyecto_tienda\\acceso_datos\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A4F396-30B2-4629-9337-B8869395D9E4}|Acceso_datos\\Acceso_datos.csproj|solutionrelative:acceso_datos\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Funciones.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\Acceso_datos\\Funciones.cs",
+              "RelativeDocumentMoniker": "Acceso_datos\\Funciones.cs",
+              "ToolTip": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\Acceso_datos\\Funciones.cs",
+              "RelativeToolTip": "Acceso_datos\\Funciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T03:32:17.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_agregar_producto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\Proyecto_tienda\\Frm_agregar_producto.cs",
+              "RelativeDocumentMoniker": "Proyecto_tienda\\Frm_agregar_producto.cs",
+              "ToolTip": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\Proyecto_tienda\\Frm_agregar_producto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_tienda\\Frm_agregar_producto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T03:29:05.184Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_vista_productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\Proyecto_tienda\\Frm_vista_productos.cs",
+              "RelativeDocumentMoniker": "Proyecto_tienda\\Frm_vista_productos.cs",
+              "ToolTip": "C:\\Users\\saave\\OneDrive\\Documentos\\Aorus\\5to_semestre\\Administracion de bases de datos\\1er Parcial\\Proyecto_tienda\\Proyecto_tienda\\Frm_vista_productos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto_tienda\\Frm_vista_productos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T03:27:15.117Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
