@@ -53,6 +53,7 @@
             this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAgregar
             // 
@@ -64,6 +65,7 @@
             this.btnAgregar.TabIndex = 10;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // pictureBox1
             // 
@@ -80,6 +82,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(650, 26);
             this.txtBuscar.TabIndex = 8;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // dtgvProductos
             // 
@@ -89,6 +92,7 @@
             this.dtgvProductos.Name = "dtgvProductos";
             this.dtgvProductos.Size = new System.Drawing.Size(695, 329);
             this.dtgvProductos.TabIndex = 7;
+            this.dtgvProductos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvProductos_CellEnter);
             // 
             // panel1
             // 

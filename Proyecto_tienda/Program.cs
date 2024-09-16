@@ -16,7 +16,7 @@ namespace Proyecto_tienda
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_vista_productos());
+            Application.Run(new Frm_agregar_producto());
         }
     }
 }

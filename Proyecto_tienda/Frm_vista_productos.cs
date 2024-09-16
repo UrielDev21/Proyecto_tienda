@@ -19,11 +19,25 @@ namespace Proyecto_tienda
         {
             InitializeComponent();
             mp = new Manejador_productos();
+            if (Frm_agregar_producto.id_producto > 0)
+            {
+                txtNombre.Text = Frm_agregar_producto.nombre;
+                txtDescripcion.Text = Frm_agregar_producto.descripcion;
+                txtPrecio.Text = Frm_agregar_producto.precio.ToString();
+            }
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            mp.Guardar(txtNombre, txtDescripcion, txtPrecio); 
+            if (Frm_agregar_producto.id_producto > 0)
+            {
+                mp.Modificar(Frm_agregar_producto.id_producto, txtNombre, txtDescripcion, txtPrecio);
+            }
+            else
+            {
+                mp.Guardar(txtNombre, txtDescripcion, txtPrecio);
+            }
+            Close();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
