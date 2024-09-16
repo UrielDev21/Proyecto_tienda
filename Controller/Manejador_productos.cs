@@ -26,6 +26,15 @@ namespace Controller
             MessageBox.Show(f.Modificar($"call p_modificar_productos({Id_producto}, '{Nombre.Text}', '{Descripcion.Text}', {Precio.Text})"),
                 "ATENCION", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+        public void Eliminar(int Id_producto, string dato)
+        {
+            DialogResult rs = MessageBox.Show($"Estas seguro de eliminar {dato}", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (rs == DialogResult.Yes)
+            {
+                f.Borrar($"call p_eliminar_productos({Id_producto})");
+                MessageBox.Show("Registro eliminado", "ATENCION", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
         //Metodo para poder agregar botones al datagridview
         DataGridViewButtonColumn Boton(string texto, Color fondo)
         {
